@@ -7,7 +7,7 @@ const num = Number(input[0]);
 const numbers = [0, ... input[1].split(" ").map(x => parseInt(x))]
 
 const DP = new Array(num + 1).fill(1);
-
+// DP[n] : n번째가 마지막인 수열의 최대 개수
 
 for (i = 1; i<= num; i++){
     for (j = 1; j<=i; j++) {
