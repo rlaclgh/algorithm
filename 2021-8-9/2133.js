@@ -1,4 +1,3 @@
-
 // https://www.acmicpc.net/problem/2133
 
 const input = require("fs").readFileSync("/dev/stdin").toString();
