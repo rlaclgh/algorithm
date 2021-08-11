@@ -1,8 +1,8 @@
 // https://www.acmicpc.net/problem/2011
+// 메모리초과
+
 
 const num = require("fs").readFileSync("/dev/stdin").toString();
-
-
 
 if (num[0] == "0"){
     console.log(0);
