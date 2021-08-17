@@ -1,5 +1,5 @@
 const input = require("fs").readFileSync("/dev/stdin").toString().trim().split("\n");
-const numbers = input.slice(1).map((x,index) => new Array(parseInt(x.split(" ")[0]), x.split(" ")[1] , index));
+
 
 
 function quickSort(arr,l,r) {
