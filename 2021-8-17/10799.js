@@ -1,6 +1,6 @@
 //https://www.acmicpc.net/problem/10799
 
-const input = require('fs').readFileSync("/dev/stdin").toString().trim().split("");
+const input = require('fs').{readFileSync("/dev/stdin").toString().trim().split("");}
 
 
 class Stack {
