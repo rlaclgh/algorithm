@@ -1,4 +1,5 @@
 // https://www.acmicpc.net/problem/1406
+// 시간초과
 
 const input = require("fs").readFileSync("/dev/stdin").toString().trim().split("\n");
 
